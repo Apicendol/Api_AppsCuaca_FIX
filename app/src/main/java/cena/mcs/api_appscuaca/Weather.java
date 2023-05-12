@@ -21,11 +21,26 @@ public class Weather {
 //        return kodecuaca;
 //    }
 
-    String day, code, weather;
+//    String day, code, weather;
+    String day;
+    int code, icon;
 
-    public Weather(String day, String weather, String code){
+//    public Weather(String day, String weather, String code){
+    public Weather(String day, int code, int icon){
         this.day = day;
-        this.weather = weather;
         this.code = code;
+        this.icon = icon;
+    }
+
+    public String getDay() {
+        return day;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public int getIcon() {
+        return icon;
     }
 }

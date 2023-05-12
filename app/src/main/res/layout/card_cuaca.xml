@@ -10,7 +10,7 @@
         android:id="@+id/day"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="18sp"
         tools:text="Tanggal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/weather"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:textSize="24sp"
+        android:textSize="18sp"
         tools:text="Cuaca"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imgDayWeather"
@@ -42,4 +42,5 @@
         app:layout_constraintStart_toEndOf="@+id/weather"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_clear" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
